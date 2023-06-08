@@ -1,5 +1,8 @@
 <h1>NGO to Combat Hunger Website Idea</h1>
 
+<p>This is a college work, this is why the website is entirely in Brazilian Portuguese</p>
+<p>I hope you enjoy!</p>
+
 <h3>DISCLAIMER</h3>
 <ul>
 <li>This website is just a <b>College Work</b>.</li>
