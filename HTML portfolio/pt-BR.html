@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Héricles Paiva | Portfolio</title>
+
+</head>
+<body>
+  
+    <!--navigation bar and header text-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://i.imgur.com/Q5meZru.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Início</a></li>
+                    <li><a href="#about">Sobre mim</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="index.html">Translate to english</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>Desenvolvedores Front-End</p>
+                <div class="social-icons-3">
+                    <a href="https://github.com/hpaivaworks" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                </div>
+                <h1>Olá, nós somos <span>Héricles Paiva</span> e <span>Jairo Terceiro</span>.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://i.imgur.com/TDJVHzS.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">Sobre Mim</h1>
+                    <p>Meu nome é Héricles Paiva. Nasci em 2002 no Brasil. Sou desenvolvedor Front-End. Eu uso <b>HTML, CSS</b> e <b>Javascript</b>.</p>
+                    
+                    <h2 class="subtitle-2">Meu Objetivo</h2>
+                    <p>Desenvolvedor Front-End motivado e apaixonado por criar experiências web intuitivas e visualmente atraentes. Procurando uma função dinâmica em uma empresa com visão de futuro, onde eu possa aproveitar minha experiência em HTML, CSS e JavaScript para criar sites responsivos e centrados no usuário. Dedicado a me manter atualizado com as tendências e tecnologias emergentes no cenário front-end, estou entusiasmado em colaborar com equipes multifuncionais para dar vida a designs inovadores e contribuir para o sucesso de projetos digitais impactantes.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Habilidades</p>
+                        <p class="tab-links" onclick="opentab('education')">Formação</p>
+                        <p class="tab-links" onclick="opentab('languages')">Idiomas</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span class="tab-contents-1"><b>HTML e CSS avançado</b></span>
+                                <br>
+                                <p>Criando interface dos websites;</p>
+                            </li>
+
+                            <li>
+                                <span class="tab-contents-1"><b>JavaScript intermediário</b></span>
+                                <br>
+                                <p>Desenvolvendo funcionalidades do website;</p>
+                            </li>
+
+                            <li>
+                                <span class="tab-contents-1"><b>Fundamentos do Design Gráfico</b></span>
+                                <br>
+                                <p>Conhecimento em composição de imagem, conceito de produção, colorimetria, teoria das cores, tipografia, ferramentas e editores de imagem.</p>
+                            </li>
+                        </ul>
+                    </div>
+                   
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span class="tab-contents-1"><b>Faculdade</b></span>
+                                <br>
+                                <p>Cursando Análise e Desenvolvimento de Sistemas no Centro Universitário Maurício de Nassau - UNINASSAU;</p>
+                            </li>
+
+                            <li>
+                                <span class="tab-contents-1"><b>HTML, CSS e JavaScript</b></span>
+                                <br>
+                                <p>Certificado pela Fundação Bradesco;</p>
+                            </li>
+
+                            <li>
+                                <span class="tab-contents-1"><b>Fundamentos do Design Gráfico</b></span>
+                                <br>
+                                <p>Certificado pela Fundação Bradesco.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="languages">
+                        <ul>
+                            <li>
+                                <span class="tab-contents-1"><b>Português (Brazilian)</b></span>
+                                <br>
+                                <p>Nativo;</p>
+                            </li>
+
+                            <li>
+                                <span class="tab-contents-1"><b>Inglês</b></span>
+                                <br>
+                                <p>Fluente;</p>
+                            </li>
+
+                            <li>
+                                <span class="tab-contents-1"><b>Espanhol</b></span>
+                                <br>
+                                <p>Avançado;</p>
+                            </li>
+
+                            <li>
+                                <span class="tab-contents-1"><b>Japonês</b></span>
+                                <br>
+                                <p>Básico (JLPT-N4).</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--about jairo-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://i.imgur.com/CjOlaFz.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">Sobre mim</h1>
+                    <p>Meu nome é Jairo Lima Tenório Teceiro. Nasci em 2003 no Brazil. Tenho conhecimento em <b>HTML</b> e <b>CSS</b>.</p>
+                    
+                    <h2 class="subtitle-2">Meu objetivo</h2>
+                    <p>Como desenvolvedor front-end, meu objetivo é criar experiências digitais impactantes e funcionais para os usuários. Busco constantemente aprimorar minhas habilidades em HTML, CSS e JavaScript, a fim de desenvolver interfaces de usuário intuitivas e responsivas. Além disso, estou sempre atento às últimas tendências e melhores práticas do mercado, buscando aplicá-las em meus projetos.</p>
+
+                    <div class="tab">
+                        <p class="tablinks" onclick="openTab(event, 'Skills')" id="defaultOpen">Habilidades</p>
+                        <p class="tablinks" onclick="openTab(event, 'Education')">Formação</p>
+                        <p class="tablinks" onclick="openTab(event, 'Languages')">Idiomas</p>
+                      </div>
+                      
+                      <!-- Tab content -->
+                      <div id="Skills" class="tabcontent">
+                        <ul>
+                            <li>
+                                <span class="tab-contents-1"><b>HTML e CSS básico</b></span>
+                                <br>
+                                <p>Criando <i>layout</i> de <i>websites</i>;</p>
+                            </li>
+                        </ul>
+                      </div>
+                      
+                      <div id="Education" class="tabcontent">
+                        <ul>
+                            <li>
+                                <span class="tab-contents-1"><b>Faculdade</b></span>
+                                <br>
+                                <p>Estudando Análise e Desenvolvimento de Sistemas no Centro Universitário Maurício de Nassau - UNINASSAU;</p>
+                            </li>
+                        </ul>
+                      </div>
+                      
+                      <div id="Languages" class="tabcontent">
+                        <ul>
+                            <li>
+                                <span class="tab-contents-1"><b>Português (Brasileiro)</b></span>
+                                <br>
+                                <p>Nativo;</p>
+                            </li>
+
+                            <li>
+                                <span class="tab-contents-1"><b>Inglês</b></span>
+                                <br>
+                                <p>Intermediário;</p>
+                            </li>
+                        </ul>
+                      </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---gallery-->
+    <div id="gallery">
+        <div class="container">
+            <h1 class="subtitle">Galeria</h1>
+
+            <div class="container-2">
+                <button class="arrow-left control" aria-label="previous image">◀</button>
+                <button class="arrow-right control" aria-label="next image">▶</button>
+
+                <div class="gallery-wrapper">
+                    <div class="gallery">
+                        <img src="https://i.imgur.com/EWvkzVD.png" alt="Umbra Lunari band's trademark" class="item current-item">
+                        
+                        <img src="https://i.imgur.com/yP7QqoI.jpg" alt="Alemanha's album cover" class="item current-item">
+                            
+                        <img src="https://i.imgur.com/NcATu5b.jpg" alt="Vibe Japonesa's album cover" class="item current-item">
+                            
+                        <img src="https://i.imgur.com/zRjSsqX.png" alt="Trademark example for japanese cafeteria" class="item current-item">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact">
+                    <h1 class="sub-title">Fale conosco!</h1>
+                    <div class="form-box">
+                        <form action="form">
+                            <label for="CNPJ">Nome</label><br>
+                            <input type="text" id="name" name="name"><br><br>
+
+                            <label for="email">E-mail</label><br>
+                            <input type="text" id="email" name="email"><br><br>
+
+                            <label for="description">Assunto</label><br>
+                            <textarea name="description" id="" cols="23" rows="5"></textarea><br><br>
+
+                            <button>Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Portfólio online criado por Héricles Paiva.</p>
+        </div>
+    </div>
+
+
+
+    <script src="coding.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
